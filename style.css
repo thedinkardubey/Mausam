@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #d8dee9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top:100px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 20px;
+}
+h4{
+    font-size: 14px;
+}
+#appbody{
+    padding:20px 10px;
+    background-color: #d8dee9;
+    height: fit-content;
+    width: fit-content;
+    border-radius:10px;
+}
+.search_bar{
+    background-color: #eceff4;
+    padding:15px;
+    border-radius: 10px;
+
+}
+.search_bar input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 400px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.search_bar i{
+    background-color: rgba(130, 128, 125, 0.126);
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.imgbox{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.imgbox img{
+    width:180px;
+
+}
+.temp{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.other_parameter{
+    margin-top:10px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.footer {
+   text-align: center;
+            color: #777777;
+            padding: 10px 0;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            background-color: #d8dee9; /* Match the background color */
+}
+
+.location_not_found{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.location_not_found h2{
+   font-size: 16px;
+   margin: 20px 0;
+   color: rgba(128, 128, 128, 0.646);
+}
+.location_not_found img{
+    width: 250px;
+}
+.other_than_search{
+    display: none;
+    flex-direction: column;
+}
